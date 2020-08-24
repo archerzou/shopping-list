@@ -37,7 +37,7 @@ app.put('/recoverallcompleted', (req, res) => {recoverallcompleted.handleRecover
 app.put('/addnote', (req, res) => {addnote.handleAddNote(req, res, db)}) // Add note to grocery item on modal close
 
 
-app.listen(port , () =>(
-    console.log(`app is running on http://localhost:${port}`)
+app.listen(process.env.PORT || port , () =>(
+    console.log(`app is running on http://localhost:${process.env.PORT}`)
 ))
 
