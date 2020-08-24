@@ -1,20 +1,31 @@
-.App {
-  text-align: center;
+.Padding-box {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 88px;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Groceries-container {
+  margin-left: 16px;
+  padding-top: 12px;
+  margin-right: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.Completed-container {
+  margin: 0 16px 16px 16px;
 }
 
+@media only screen and (max-width: 600px) {
+  .Padding-box {
+    padding-top: 64px;
+  }
+  .Groceries-container {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 24px;
+  }
+  .Completed-container {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
