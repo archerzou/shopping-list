@@ -26,7 +26,7 @@ Create a PostgreSQL database called 'quickshopper' on your local machine. It inc
 * In `/ backend / server.js`, edit the server credentials, starting on line 14 in the server.js file
 
 * In the constants folder:
-    * Copy the groceriestemplatedb-5-6-2020.csv file to the groceriestemplate table in the database.
+    * Copy the groceriestemplatedb-8-25-2020.csv file to the groceriestemplate table in the database.
     * Customize the stores array in the `groceryStores.js` file by modifying the store names, store categories, store orders, and items per category. The last category under each
     store should be "Uncategorized Items," otherwise the app will break when you add an item
     that has no category.
