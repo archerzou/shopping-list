@@ -49,7 +49,7 @@ Create a PostgreSQL database called 'quickshopper' on your local machine. It inc
 ## Frontend Technologies Used
 * [create-react-app](https://create-react-app.dev/): To create React application
 * [material-ui](https://material-ui.com/): To create Material Design UI components
-* [gh-pages](https://www.npmjs.com/package/gh-pages): To deploy site on GitHub pages
+* [netlify](https://www.netlify.com): To deploy site by netlify
 
 ## Backend Technologies Used 
 * [body-parser](https://www.npmjs.com/package/body-parser): Node.js body parsing middleware
